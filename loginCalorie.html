@@ -1,0 +1,60 @@
+<html>
+
+<head>
+    <title>Cal Pal | Login</title>
+    <link href = "loginCalorie.css" rel = "stylesheet" type = "text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="indexCalorie.html">Cal Pal</a>
+            </nav>
+</head>
+<body>
+
+    <div id = "wrapper"> 
+    <div class="login-box">
+        <img src="avatar.png" class="avatar" alt="avatar">
+        <h1>Login</h1>
+        <!--<form class="" action="index.html" method="post">-->
+          <!--<form onsubmit =  "return setAction(this)">-->
+          <p>Email</p>
+          <input type="text" id="email" placeholder="Enter Email">
+          <p>Password</p>
+          <input type="password" id="password" placeholder="Enter Password">
+          <!--<input type="login" id="" value="Login">-->
+          <div id = "button-container">
+            <button class="btn" onclick="login()">Login</button>
+          </div>
+
+          
+          <button id = "forgot-pass"> Forgot your password?</button>
+          <div id = "forgotModal" class = "modal">
+            <div class = "modal-content">
+              <span class = "close">&times;</span>
+              <p> Please enter your email to reset your password:
+              </p>
+              <input type = "text" id = "forgottenPassEmail" placeholder= "Enter Email">
+              <div id = "modalButton-container">
+                <button class="modal-btn" onclick="resetPass()">Submit</button>
+              </div>
+            </div>
+          </div>
+          <a href="signupCalorie.html">Don't have an account?</a>
+        </form>
+      </div>
+    </div>
+<!--
+<script src=”https://code.jquery.com/jquery-3.2.1.slim.min.js” integrity=”sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN” 
+    crossorigin=”anonymous”></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js integrity=”sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q” 
+    crossorigin=”anonymous”></script> 
+<script src=”https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js” integrity=”sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl” 
+    crossorigin=”anonymous”></script>-->
+    <script src = "https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+<script src = "https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+<script src = "https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+<script src = "loginCalorie.js"></script>
+</body>
+</html>
+
+

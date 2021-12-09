@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quantico:ital@1&family=Roboto:ital,wght@1,300;1,400&display=swap');
+
+*{
+    font-family: Quantico;
+}
+
+.navbar{
+    height: 100px ;
+  
+}
+.navbar-brand{
+    margin:0;
+    font-size: 50px !important;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+    margin-top: 80;
+}
+
+#wrapper{
+  margin-left:auto;
+  margin-right: auto;
+  width: 960px;
+}
+
+body {
+    background-image: url("background.webp");
+    background-color: #787A91;
+  }
+  
+  /* Avatar image */
+  img {
+    height: 300%;
+    width: 45%;
+    margin-top: 7%;
+  }
+  
+  .img-logo {
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    margin-left: 44%;
+    margin-top: 0;
+  }
+  
+  .login-box {
+    width: 320px;
+    height: 450px;
+    background: #343a40;
+    color: #fff;
+    top: 60%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 80px 30px;
+  }
+  
+  /* Avatar image */
+  .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+  }
+  
+  h1 {
+    margin: 0;
+    padding: 0 0 10px;
+   
+    text-align: center;
+    font-size: 22px;
+  }
+  
+ 
+  
+  .login-box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+  }
+  
+  .login-box input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .login-box input[type="text"], input[type="password"] {
+   
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  #button-container {
+    padding-bottom: 25px;
+  }
+
+  .btn {
+    border: none;
+    width: 100%;
+    outline: none;
+    height: 40px;
+    background-color: #eceaeb !important;
+    box-shadow: 0 0 20px #eceaeb;
+    font-size: 18px;
+    border-radius: 20px;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background: transparent;
+    border-color: #ffc107;
+    border-style: solid;
+  }
+
+  #forgot-pass{
+    float: left;
+    text-decoration: none;
+    padding: 2px;
+    border:none;
+    background: none;
+    font-size: 14px;
+    line-height: 30px;
+    color: white;
+  }
+  
+  #forgot-pass:hover {
+    cursor: pointer;
+    color: #ffc107;
+  }
+  
+  .login-box a{
+   
+    text-decoration: none;
+    padding: 2px;
+    font-size: 14px;
+    line-height: 30px;
+    color: white;
+  }
+  
+  .login-box a:hover {
+    color: #ffc107;
+  }
+
+  
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    
+
+  }
+
+  .modal-content {
+    background-color: #343a40 !important;
+    color: white;
+    margin: auto;
+    padding: 20px;
+    /*border: 1px solid rgb(255, 255, 255);*/
+    opacity: 0.99;
+  }
+
+  .close {
+    color: white !important;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: #ffc107;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .modal-btn {
+    background: none;
+    border: none;
+    width: 40%;
+    outline: none;
+    height: 30px;
+    background: black;
+    box-shadow: 0 0 20px black;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+  }
+
+  .modal-btn:hover {
+    cursor: pointer;
+    background: transparent;
+    border-color: #ffc107;
+    border-style: solid;
+  }
+    
